@@ -5,7 +5,7 @@ const About = () => {
     return (
         <section id="about">
             <div className="about-container">
-                <img className="profile-picture" src={profile_picture} />\
+                <img className="profile-picture" src={profile_picture} />
                 <div className="about-text-area">
                     <h1>Hero Name: Caped Baldy</h1>
                     {/* This is from Wikipedia: https://onepunchman.fandom.com/wiki/Saitama */}

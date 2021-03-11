@@ -10,7 +10,7 @@ const navbar = () => {
                 <Navbar.Collapse id="basic-navbar-nav">
                     <Nav className="mr-auto">
                         <a className="nav-link" href="#about"><i class="fa fa-fw fa-user" />About</a>
-                        <a className="nav-link" href="#"><i class="fa fa-fw fa-trophy" />Achievements</a>
+                        <a className="nav-link" href="#achievements"><i class="fa fa-fw fa-trophy" />Achievements</a>
                     </Nav>
                 </Navbar.Collapse>
             </Navbar>
