@@ -6,7 +6,7 @@ export default class Header extends Component {
             <section id="home">
                <header>
                   <div className="banner-text">
-                     <h1 className="responsive-headline">Justin Mabutas</h1>
+                     <h1>Justin Mabutas</h1>
                      <hr />
                      <h3>
                         CSULB Computer Science Graduate<br />
@@ -15,7 +15,7 @@ export default class Header extends Component {
                   </div>
 
                   <p className="scrolldown">
-                     <a className="smoothscroll" href="#about"><i class="glyphicon glyphicon-chevron-down"></i></a>
+                     <a className="smoothscroll" href="#about"><i className="glyphicon glyphicon-chevron-down"></i></a>
                   </p>
 
                </header>
