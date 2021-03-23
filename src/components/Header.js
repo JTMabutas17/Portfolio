@@ -15,7 +15,7 @@ export default class Header extends Component {
                   </div>
 
                   <p className="scrolldown">
-                     <a className="smoothscroll" href="#about"><i className="fas fa-arrow-circle-down"></i></a>
+                     <a className="smoothscroll" href="#about"><i class="glyphicon glyphicon-chevron-down"></i></a>
                   </p>
 
                </header>
