@@ -1,19 +1,20 @@
-import React from 'react'
-import profile_picture from '../images/profile_picture.jpg'
-
-const About = () => {
+import React, { Component } from 'react';
+export default class About extends Component {
+  render() {
     return (
-        <section id="about">
-            <div className="about-container">
-                <img className="profile-picture" src={profile_picture} />
-                <div className="about-text-area">
-                    <h1>Hero Name: Caped Baldy</h1>
-                    {/* This is from Wikipedia: https://onepunchman.fandom.com/wiki/Saitama */}
-                    <p>Saitama (サイタマ, Saitama) is the main protagonist of the series and the titular One-Punch Man and the most powerful being to exist in the series. Saitama faces a self-imposed existential crisis, as he is now too powerful to gain any thrill from battle.</p>
-                </div>
-            </div>
-        </section>
-    )
+      <section id="about">
+        <div className="about-container">
+          <img className="profile-picture" src="images/profile-picture.jpeg" />
+          <div className="about-text-area">
+            <h1>About Me</h1>
+            <p>
+              Hi, I'm Justin. I'm currently pursuing my Bachelor's degree in Computer Science from California State University, Long Beach. I am an experienced System Administrator with a demonstrated history of working in the computer software industry. I have practical experience working in a research lab by documenting and rewriting data science scripts, and working as a team leader to oversee the software development cycle of an Android Application.
+                My personal projects include web development with ReactJS, game development in Unreal Engine, and Android App development. Reach out to me if you'd like any advise on these topics. <br />
+              This website will include information about person projects I have worked on and also links to my social media accounts.
+            </p>
+          </div>
+        </div>
+      </section>
+    );
+  }
 }
-
-export default About

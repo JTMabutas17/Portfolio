@@ -1,21 +1,19 @@
-import React from 'react'
-import { Navbar, Nav } from 'react-bootstrap/'
-
-const navbar = () => {
-    return (
-        <div>
-            <Navbar fixed="top" expand="lg">
-                <Navbar.Brand href="#"><img src="/images/brand.png" width="150" height="75" /></Navbar.Brand>
-                <Navbar.Toggle aria-controls="basic-navbar-nav" />
-                <Navbar.Collapse id="basic-navbar-nav">
-                    <Nav className="mr-auto">
-                        <a className="nav-link" href="#about"><i class="fa fa-fw fa-user" />About</a>
-                        <a className="nav-link" href="#achievements"><i class="fa fa-fw fa-trophy" />Achievements</a>
-                    </Nav>
-                </Navbar.Collapse>
-            </Navbar>
-        </div>
-    )
+import React, { Component } from 'react';
+export default class Navbar extends Component {
+    render() {
+        return (
+            <React.Fragment>
+                <nav id="nav-wrap">
+                    <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+                    <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+                    <ul id="nav" className="nav">
+                        <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
+                        <li><a className="smoothscroll" href="#about">About</a></li>
+                        <li><a className="smoothscroll" href="#abilities">Abilities</a></li>
+                        <li><a className="smoothscroll" href="#hokage">Hokage</a></li>
+                    </ul>
+                </nav>
+            </React.Fragment>
+        );
+    }
 }
-
-export default navbar

@@ -1,22 +1,26 @@
-import React from 'react'
+import React, { Component } from 'react';
+export default class Header extends Component {
+   render() {
+      return (
+         <React.Fragment>
+            <section id="home">
+               <header>
+                  <div className="banner-text">
+                     <h1 className="responsive-headline">Justin Mabutas</h1>
+                     <hr />
+                     <h3>
+                        CSULB Computer Science Graduate<br />
+                        Currently searching for Software Developer Roles
+                     </h3>
+                  </div>
 
-const Header = () => {
-    return (
-        <section id="header">
-            <header>
-                <div className="row">
-                    <div className="banner-text">
-                        <h1>I'm Saitama</h1>
-                        <h3 style={{ fontFamily: 'sans-serif' }}>
-                            A hero for fun <br />
-                        B-Class Rank 7 of the Hero Association
-                    </h3>
-                        <hr />
-                    </div>
-                </div>
-            </header>
-        </section>
-    )
+                  <p className="scrolldown">
+                     <a className="smoothscroll" href="#about"><i className="fas fa-arrow-circle-down"></i></a>
+                  </p>
+
+               </header>
+            </section>
+         </React.Fragment>
+      );
+   }
 }
-
-export default Header
