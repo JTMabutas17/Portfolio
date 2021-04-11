@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Navbar from './components/Navbar'
 import Header from './components/Header';
 import About from './components/About';
-import Abilities from './components/Abilities';
+import Experience from './components/Experience';
 import Hokage from './components/Hokage';
 
 class App extends Component {
@@ -12,8 +12,9 @@ class App extends Component {
         {/* <Navbar /> */}
         <Header />
         <About />
-        {/* <hr />
-        <Abilities />
+        <hr />
+        <Experience />
+        {/* 
         <hr />
         <Hokage /> */}
       </div>

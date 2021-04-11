@@ -147,33 +147,33 @@ header .scrolldown a:hover { color: white; }
 
 
 /* ------------------------------------------------------------------ */
-/* d. Abilities Section
+/* d. Experience Section
 /* ------------------------------------------------------------------ */
-.abilities-header {
+.experience-header {
    text-align: center;
    font-size: 6vw;
 }
 
-.abilities-container {
+.experience-container {
    margin-bottom: 2vh;
    display: flex;
    align-items: center;
    justify-content: center;  
  }
- .ability-picture {
+ .experience-picture {
    position: center;
    width: 16vw;
    height: 16vw;
    border-radius: 50%;
  }
 
- .abilities-text-area {
+ .experience-text-area {
    background-color: white;
    width: 50%;
    margin-left: 24px;
  }
  
- .abilities-text-area p {
+ .experience-text-area p, li {
     font-size: 16px;
     color: gray;
  }
